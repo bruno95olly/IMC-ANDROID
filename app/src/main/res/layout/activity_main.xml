@@ -27,6 +27,7 @@
         android:textSize="24sp"
         android:textStyle="italic" />
     <EditText
+        android:id="@+id/edit_peso"
         android:layout_width="match_parent"
         android:padding="10dp"
         android:layout_marginTop="60dp"
@@ -39,9 +40,13 @@
         android:textColorHint="#CDCDCD"
         android:textSize="21sp"
         android:inputType="number"
+        android:drawableStart="@drawable/peso"
+        android:drawableTint="@color/white"
+        android:drawablePadding="16dp"
         />
 
     <EditText
+        android:id="@+id/edit_altura"
         android:layout_width="match_parent"
         android:padding="10dp"
         android:layout_marginTop="30dp"
@@ -55,9 +60,13 @@
         android:textColorHint="#CDCDCD"
         android:textSize="21sp"
         android:inputType="numberDecimal"
+        android:drawableStart="@drawable/altura"
+        android:drawableTint="@color/white"
+        android:drawablePadding="16dp"
         />
 
     <Button
+        android:id="@+id/button_calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calcular"
@@ -66,10 +75,12 @@
         android:layout_marginTop="20dp"
         android:textSize="21sp"
         android:padding="15dp"
+        android:textAllCaps="false"
         android:background="@drawable/edit_button_background"
         android:textColor="#CDCDCD"
         />
     <TextView
+        android:id="@+id/text_view_resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="21.5"
