@@ -81,13 +81,14 @@
         />
     <TextView
         android:id="@+id/text_view_resultado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="21.5"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:text="IMC"
         android:layout_gravity="center"
+        android:gravity="center"
         android:layout_marginTop="30dp"
         android:textSize="50sp"
-        android:padding="40dp"
+        android:padding="30dp"
         android:background="@drawable/edit_resultado_background"
         android:textColor="@color/white"
         />
